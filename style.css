@@ -1,0 +1,64 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+  background-color: #fff;
+}
+/*
+img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+*/
+h1 {
+  text-align: center;
+  font-size: 45px;
+  margin-top: 0;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  color: #020024;
+}
+
+button {
+  width: 350px;
+  height: 100px;
+  display: block;
+  background-color: #020024;
+  color: white;
+  font-size: 24px;
+  font-family: inherit;
+  margin: 0 auto;
+  border-radius: .25rem;
+}
+
+small {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.gradient {
+  color: #fff;
+  text-shadow: 3px 1px 5px rgba(150, 150, 150, 1);  
+  height: 200px;
+  line-height: 200px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+/*  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,70,1) 35%, rgba(0,212,255,1) 100%);
+*/
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+
+}
+
+#click-color {
+  text-align: center;
+}
