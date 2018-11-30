@@ -23,14 +23,12 @@ button {
   height: 100px;
   display: block;
   background-color: #020024;
-  font-family: inherit;
   margin: 0 auto;
   border-radius: .25rem;
 }
 
 small {
   font-size: 12px;
-  font-weight: bold;
 }
 
 .gradient {
